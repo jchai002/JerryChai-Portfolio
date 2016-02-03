@@ -45,4 +45,19 @@ $(document).ready(function() {
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+
 })(jQuery); // End of use strict
+
+$(function(){
+
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 100,
+            backDelay: 1800,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false
+        });
+
+    });
