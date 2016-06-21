@@ -92,6 +92,15 @@ kbd {
   transform: rotate(7deg);
 }
 
+.polaroid-2 {
+  position: absolute;
+  top: -32%;
+  right: 5%;
+  -ms-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
 .polaroid img {
   width: 300px;
   height: auto;
@@ -102,7 +111,18 @@ kbd {
   box-shadow: 3px 3px 3px #777;
 }
 
-.polaroid p {
+.polaroid-2 img {
+  width: 400px;
+  height: auto;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+}
+
+
+.polaroid p, .polaroid-2 p {
   position: absolute;
   text-align: center;
   width: 100%;
