@@ -19,7 +19,7 @@ body {
 .intro {
   color: #ffffff;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 32px;
   letter-spacing: 0.02em;
   margin-bottom: 2em;
 }
@@ -312,9 +312,8 @@ footer {
         }
 
 .description {
-  margin-top: 1em;
   font-size: 22px;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.02em;
 }
 
