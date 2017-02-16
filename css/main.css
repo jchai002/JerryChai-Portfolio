@@ -16,12 +16,18 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+
 .intro {
   color: #ffffff;
   font-size: 22px;
   line-height: 32px;
   letter-spacing: 0.02em;
   margin-bottom: 2em;
+}
+
+.intro a {
+  color: white;
 }
 
 
